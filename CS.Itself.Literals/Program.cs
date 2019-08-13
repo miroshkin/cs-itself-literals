@@ -23,6 +23,9 @@ namespace CS.Itself.Literals
 
             Console.WriteLine("object c equals d : " + c == d + "\n\v");
 
+            int hex = 0xFACE;
+            Console.WriteLine(hex);
+
             string e = @"Excellent work!";
             Console.Write($"\'{e}\'");
         }
