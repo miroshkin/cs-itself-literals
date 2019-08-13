@@ -21,7 +21,7 @@ namespace CS.Itself.Literals
             object c = "asdf";
             object d = "asdf";
 
-            Console.WriteLine("object c equals d : " + a == b + "\n\v");
+            Console.WriteLine("object c equals d : " + c == d + "\n\v");
 
             string e = @"Excellent work!";
             Console.Write($"\'{e}\'");
